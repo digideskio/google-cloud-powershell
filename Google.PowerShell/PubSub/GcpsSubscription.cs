@@ -26,7 +26,7 @@ namespace Google.PowerShell.PubSub
         [Alias("Name")]
         public string[] Subscription { get; set; }
 
-        [Parameter(Mandatory = true)]
+        [Parameter(Mandatory = false)]
         [ValidateNotNullOrEmpty]
         public string Topic { get; set; }
 
